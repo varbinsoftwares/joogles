@@ -29,7 +29,6 @@ $this->load->view('layout/header');
         <div class="row">
             <div class="col-md-12">
                 <center>
-                    <img alt="Single Blog" src="<?php echo base_url(); ?>assets/images/aboutus.jpg" class="img-responsive" style='border: 3px solid #000;'>
                 </center>
             </div>
             <div class="col-md-12">
@@ -37,12 +36,14 @@ $this->load->view('layout/header');
 
 
                     <p>
-                        Octopuscart is an e-commerce venture that provides your daily need items at your doorstep. We shall continue to strive hard to innovate and discover efficient means to create value for our customers, employees and community.              </p>
+                        Joogles.com is an e-commerce venture that provides electronics and lifestyle items at your doorstep. 
+                    It is leading online electronics store offering products in all ranges.
+                                            We don't only just make the process of Online products ordering easy and fun but also make sure the prices are unbeatable.                           </p>
+
+                    </p>
 
                     <p>
-                        We don't only just make the process of Online products ordering easy and fun but also make sure the prices are unbeatable.                           </p>
                     <p>
-                        <b>Parent Company of  www.octopuscart.com is <a href="http://costcointernational.com" target="_blank">Costco International Ltd</a></b>
                     </p>
                 </div>
 

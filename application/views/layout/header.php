@@ -242,8 +242,8 @@
                                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                                         <div class="header-contact">
                                             <ul>
-                                                <li><i class="fa fa-phone" aria-hidden="true"></i><a href="+(852) 6878 4014"> +(852) 6878 4014</a></li>
-                                                <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"> sales@octopuscart.com</a></li>
+                                                <li><i class="fa fa-phone" aria-hidden="true"></i><a href="+91 97706 75143"> +91 97706 75143</a></li>
+                                                <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#">  sales@joogls.com</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -252,7 +252,7 @@
                                             <ul>
                                                 <li><a href="<?php echo site_url("Account/profile"); ?>"><i class="fa fa-lock" aria-hidden="true"></i> Account</a></li>
                                                 <li><a href="<?php echo site_url("Account/profile"); ?>"><i class="fa fa-heart-o" aria-hidden="true"></i> Wishlist</a></li>
-                                                <li><a href="#"><i class="fa fa-usd" aria-hidden="true"></i> USD</a></li>
+                                                <li><a href="#"><i class="fa fa-usd" aria-hidden="true"></i> INR</a></li>
                                             </ul>
                                         </div>
                                     </div>
