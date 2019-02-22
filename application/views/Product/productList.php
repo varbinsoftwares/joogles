@@ -301,7 +301,7 @@ $image2 = "";
                                     <div class="product-content-holder">
                                         <h3>
                                             <a href="#"><span class="list_product_title">{{product.title}}</span>  <br>
-                                                <span style="font-size: 12px">{{product.short_description}} </span>
+                                                <span style="font-size: 12px">{{product.sku}} </span>
                                             </a>
                                             <p style="     margin-bottom: 0px;
                                                height: 2px;" ng-if="product.attr.length">

@@ -391,35 +391,17 @@
                                     <div class="main-menu-area home2-sticky-area">
                                         <nav>
                                             <ul>
-                                                <?php foreach ($menulist as $mkey => $mvalue) { ?>
-                                                    <li>
-                                                        <a href="<?php echo $mvalue['link']; ?>" class="dropdown-toggle <?php echo count($mvalue['submenu']) ? 'submenu' : ''; ?>" data-toggle="dropdown"><?php echo $mvalue['title']; ?>  </a>
-                                                        <?php
-                                                        if (count($mvalue['submenu'])) {
-                                                            ?>
+                                                <li ng-repeat="cat in categoriesMenu">
+                                                    <a href="<?php echo site_url("Product/ProductList/");?>{{cat.id}}" class="dropdown-toggle {{ cat.sub_category ? 'submenu' : ''}}" data-toggle="dropdown">{{cat.category_name}}</a>
+                                                    <ul class="mega-menu-area" ng-if="cat.sub_category">
 
-                                                            <ul class="mega-menu-area">
-                                                                <?php foreach ($mvalue['submenu'] as $smkey => $smvalue) { ?>
-
-                                                                    <li>
-                                                                        <a href="<?php echo $smvalue['link']; ?>"><?php echo $smvalue['title']; ?> <i class="glyphicon glyphicon-triangle-right"></i></a>
-
-                                                                        <?php foreach ($smvalue['submenu'] as $sb1mkey => $sb1mvalue) { ?>
-                                                                            <a href="<?php echo $sb1mvalue['link']; ?>" style="    font-weight: 500;    border-bottom: 0px solid #b6b6b6;"><?php echo $sb1mvalue['title']; ?></a>
-                                                                        <?php } ?>
-                                                                    </li>
-                                                                <?php } ?>
-                                                            </ul>
-
-
-
-                                                            <?php
-                                                        }
-                                                        ?>
-                                                    </li>
-                                                    <?php
-                                                }
-                                                ?>
+                                                        <li ng-repeat="subcat in cat.sub_category">
+                                                    
+                                                            <a href="<?php echo site_url("Product/ProductList/");?>{{subcat.id}}">{{subcat.category_name}}<i class="glyphicon glyphicon-triangle-right"></i></a>
+                                                            <a href="<?php echo site_url("Product/ProductList/");?>{{sscat.id}}" style="    font-weight: 500;    border-bottom: 0px solid #b6b6b6;" ng-repeat="sscat in subcat.sub_category">{{sscat.category_name}}</a>
+                                                        </li>
+                                                    </ul>   
+                                                </li>
                                             </ul>
                                         </nav>
                                     </div>

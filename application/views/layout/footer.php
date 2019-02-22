@@ -73,10 +73,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                        <p>Copyright © <?php echo date('Y') ?> Octopuscart. All rights reserved</p>
+                        <p>Copyright © <?php echo date('Y') ?> Joogls.com. All rights reserved</p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <a href="https://costcointernational.com" target="_blank">from the house of Costco Internatinal Ltd. </a>
                     </div>
                 </div>
             </div>
