@@ -44,10 +44,7 @@ foreach ($sliders as $key => $value) {
     <div class="bend niceties preview-1">
         <div id="ensign-nivoslider-3" class="slides" style="    height: 500px;">
             <img src="<?php echo base_url(); ?>assets/sliders/s6.jpg" alt="" title="#slider-direction-1" />
-            <img src="<?php echo base_url(); ?>assets/sliders/s3.jpg" alt="" title="#slider-direction-3" />
-            <img src="<?php echo base_url(); ?>assets/sliders/s7.jpg" alt="" title="#slider-direction-3" />
-            <img src="<?php echo base_url(); ?>assets/sliders/s5.jpg" alt="" title="#slider-direction-3" />
-
+     
         </div>
         <div id="slider-direction-1" class="t-cn slider-direction">
             <div class="slider-content t-lfl s-tb slider-1">
