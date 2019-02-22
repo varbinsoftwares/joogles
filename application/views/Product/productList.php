@@ -424,7 +424,7 @@ $image2 = "";
                                     <li><i aria-hidden="true" class="fa fa-star"></i></li>
                                     <li><i aria-hidden="true" class="fa fa-star"></i></li>
                                 </ul>
-                                <p style="font-size: 20px;" class="price">{{projectDetailsModel.productobj|currency:"<?php echo globle_currency; ?> "}}</p>
+                                <p style="font-size: 20px;" class="price">{{projectDetailsModel.productobj.price|currency:"<?php echo globle_currency; ?> "}}</p>
                                 <p>{{projectDetailsModel.productobj.short_description}}</p>
                                 <div class="product-details-content">
                                     <p><span class="model_tab_title">SKU:</span><br/> {{projectDetailsModel.productobj.title}}</p>
