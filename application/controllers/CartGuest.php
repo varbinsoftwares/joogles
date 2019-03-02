@@ -174,7 +174,7 @@ class CartGuest extends CI_Controller {
         
 //place order
         if (isset($_POST['place_order'])) {
-            $address = $user_address_details[0];
+            $address = $user_address_details;
 
             if ($this->checklogin) {
 
