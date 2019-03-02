@@ -117,7 +117,7 @@ class User_model extends CI_Model {
             );
             $this->db->insert('system_log', $orderlog);
 
-            $subject = "Welcome to Octopuscart - Your account with www.octopuscart.com has been successfully created!";
+            $subject = "Welcome to Joogls.com - Your account with www.joogls.com has been successfully created!";
             $this->email->subject($subject);
             
             $customerdetails['customer'] = $customer;
